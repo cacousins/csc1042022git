@@ -9,17 +9,38 @@
 
 <style>
 
-table{
+table, th, td{
 	border:  1px solid black;
+	text-align: center;
 }
 
-	
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
 
+th{
+	background-color: #badc58;
+	color: #c23616;
+}
+
+tr:nth-child(even){
+	background-color:#a4b0be;
+}
+
+tr:nth-child(odd){
+	background-color:#18dcff;
+}
+
+#testing td:hover{
+	background-color:  #fc5c65;
+	font-size:46px;
+}
 
 </style>
 
 <body>
-    <table>
+    <table id="testing">
         <tr>
             <th>Sites</th>
             <th>YouTube Channels</th>
