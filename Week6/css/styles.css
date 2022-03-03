@@ -1,0 +1,41 @@
+body{
+	background-color: #a5b1c2;
+	font-family: 'Righteous', cursive;
+}
+
+table, td, th {
+	border:  1px solid black;
+	border-collapse: collapse;
+	padding:  10px;	
+}
+
+#revisiontable tr:nth-child(even){
+	background-color: #0be881;
+
+}
+
+#revisiontable tr:hover{
+	background-color: #00d8d6;
+
+}
+
+#div1{
+	background-color: #78d8d6;
+}
+
+#div2{
+	background-color: #575fcf;
+}
+
+
+#div3{
+	background-color: #ff3f34;
+	border:  5px solid red;
+}
+
+div p {
+
+	background-color: #2ed573;
+	border:  5px solid black;
+
+}

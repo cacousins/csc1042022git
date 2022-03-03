@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Direct Child</title>
+</head>
+
+<style>
+
+	/*div > span{
+		background-color:#badc58;
+	}*/
+
+	div > p{
+		background-color: #F79F1F;
+	}
+	
+
+</style>
+
+
+<body>
+
+	<div>
+		<span>Span# 1 in the div </span><br>
+		<span>Span# 2 in the div</span> <br>
+		<span>Span# 3 in the div</span> <br>
+		<span>Span# 4 in the div</span> <br>
+		<span>Span# 5 in the div</span> <br>
+		<p>
+			<span>Span 6 in the p tag</span> <br>
+		</p>
+	</div>
+
+	<span>Span 7 - this is not in the div</span>
+
+
+	<div>
+		<p>Immediate Child#1</p>
+		<p>Immediate Child#2</p>
+		<p>Immediate Child#3</p>
+		<p>Immediate Child#4</p>
+		<p>Immediate Child#5</p>
+		<section>
+			<p>Not An Immediate Child</p>
+		</section>
+		<p>Immediate Child#6</p>
+	</div>
+
+
+	
+</body>
+</html>

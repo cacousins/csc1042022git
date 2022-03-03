@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Multiple Selectors</title>
+</head>
+
+<style>
+	/* EXAMPLE #1*/
+	article div p{
+		background-color: #55efc4;
+	}
+	
+
+	/* EXAMPLE #2*/
+	ul li{
+		background-color: #ff7675;
+	}
+
+	/*example three */
+	/* div is parent/ancestor and p is the child/descendant */ 
+
+	div p{
+		color:  blue;
+		font-family: sans-serif;
+		font-weight: bold;
+		background-color: #e056fd;
+	}
+
+
+</style>
+<body>
+
+<article>
+	<div>
+		<p>This is my desendants element</p>
+	</div>
+</article>
+
+<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis maiores quo recusandae sit unde? Doloribus adipisci unde fugit natus, ad, omnis maxime deleniti nesciunt sunt dignissimos similique vitae, distinctio cupiditate!</p>
+
+
+<div>
+	<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus quisquam minus tempora! Accusantium, nihil. Reprehenderit dolores vel dicta fugit iste voluptas, pariatur quos itaque numquam totam laudantium eaque sint, qui.</p>
+</div>
+
+
+<ul>
+	<li> item One
+		<ol>
+			<li>Sub Item 1</li>
+			<li>Sub Item 2</li>
+			<li>Sub Item 3</li>
+		</ol>
+	</li>
+</ul>
+
+<ol>
+	<li>one</li>
+	<li>two</li>
+	<li>three</li>
+	<li>four</li>
+</ol>
+	
+</body>
+</html>
